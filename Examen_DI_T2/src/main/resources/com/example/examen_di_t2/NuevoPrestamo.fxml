@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox fx:controller="com.example.examen_di_t2.NewLoanScreenController" xmlns:fx="http://javafx.com/fxml">
+    <TextField fx:id="bookIdField" promptText="Book ID" />
+    <TextField fx:id="borrowerField" promptText="Borrower" />
+    <Button text="Add Loan" onAction="#addLoan" />
+</VBox>
